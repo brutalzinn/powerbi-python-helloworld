@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 link = 'https://www.worldometers.info/'
-REST_API_URL = os.environ.get("POWER_BI") #'https://api.powerbi.com/beta/aa495f2c-d37e-4b58-ab95-bf0874a3adb2/datasets/dc4a8d58-508b-4725-be3f-1366644dcda1/rows?redirectedFromSignup=1&key=jjNsu5i%2FozyjKYpoMNI3Qd3Da%2FEk7jXMLOlL0LLzSGIinLjriRqmcrt0qp3Lp%2Bfa78%2BnRFStu%2FA0Y9jnRbLkWQ%3D%3D'
+REST_API_URL = os.environ.get("POWER_BI") # example api url from ENV variable 'https://api.powerbi.com/beta/aa495f2c-d37e-4b58-ab95-bf0874a3adb2/datasets/dc4a8d58-508b-4725-be3f-1366644dcda1/rows?redirectedFromSignup=1&key=jjNsu5i%2FozyjKYpoMNI3Qd3Da%2FEk7jXMLOlL0LLzSGIinLjriRqmcrt0qp3Lp%2Bfa78%2BnRFStu%2FA0Y9jnRbLkWQ%3D%3D'
 def parseNumber(text):
     try:
         # First we return None if we don't have something in the text:
