@@ -5,6 +5,8 @@ I can't check robots.txt, soo.. use this only for personal use.
 
 This project needs a .env file in root folder.
 
+This project needs chrome driver or firefox driver to work.
+
 # Package Requeriments 
 
 1. Selenium
